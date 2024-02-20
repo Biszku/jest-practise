@@ -11,3 +11,11 @@ const myFunction = (input) => {
 };
 
 module.exports = myFunction;
+
+const fetchData = (callback) => {
+  setTimeout(() => {
+    callback("peanut butter");
+  }, 1000);
+};
+
+module.exports = fetchData;
