@@ -1,6 +1,7 @@
 const myFunction = require("./sum");
 const sum = require("./sum");
 const fetchData = require("./sum");
+// const fetchPromise = require("./sum");
 
 test("1 + 2 equal 3", () => {
   expect(() => {
@@ -26,3 +27,7 @@ test("the data is peanut butter", (done) => {
 
   fetchData(callback);
 });
+
+// test("the data is peanut butter", () => {
+//   return expect(fetchPromise()).resolve.toBe("peanut butter");
+// });
