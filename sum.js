@@ -1,24 +1,24 @@
-const sum = (a, b) => {
-  return a + b;
-};
+// const sum = (a, b) => {
+//   return a + b;
+// };
 
-module.exports = sum;
+// module.exports = sum;
 
-const myFunction = (input) => {
-  if (typeof input !== "number") {
-    throw new Error("Invalid Input");
-  }
-};
+// const myFunction = (input) => {
+//   if (typeof input !== "number") {
+//     throw new Error("Invalid Input");
+//   }
+// };
 
-module.exports = myFunction;
+// module.exports = myFunction;
 
-const fetchData = (callback) => {
-  setTimeout(() => {
-    callback("peanut butter");
-  }, 1000);
-};
+// const fetchData = (callback) => {
+//   setTimeout(() => {
+//     callback("peanut butter");
+//   }, 1000);
+// };
 
-module.exports = fetchData;
+// module.exports = fetchData;
 
 const fetchPromise = () => {
   return new Promise((resolve, reject) => {
